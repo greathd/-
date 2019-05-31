@@ -94,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/客戶端/DateChooserJButton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="563" column="52" lean-forward="true" selection-start-line="563" selection-start-column="52" selection-end-line="563" selection-end-column="52" />
+              <caret line="563" column="50" lean-forward="true" selection-start-line="563" selection-start-column="50" selection-end-line="563" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1293#1294#0" expanded="true" />
@@ -202,105 +202,6 @@
               <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
               <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="公共组件池" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="公共组件池" type="462c0819:PsiDirectoryNode" />
-              <item name="传输组件" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="公共组件池" type="462c0819:PsiDirectoryNode" />
-              <item name="其他组件" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="公共组件池" type="462c0819:PsiDirectoryNode" />
-              <item name="探测器与接收器" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="公共组件池" type="462c0819:PsiDirectoryNode" />
-              <item name="绘画组件" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="公共组件池" type="462c0819:PsiDirectoryNode" />
-              <item name="视频组件" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="公共组件池" type="462c0819:PsiDirectoryNode" />
-              <item name="音频组件" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="客戶端" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One-on-one network lectures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One-on-one network lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -375,18 +276,17 @@
       <option name="presentableId" value="Default" />
       <updated>1559309291356</updated>
       <workItem from="1559309292722" duration="187000" />
-      <workItem from="1559309561128" duration="740000" />
+      <workItem from="1559309561128" duration="1568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="927000" />
+    <option name="totallyTimeSpent" value="1755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -592,7 +492,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/客戶端/DateChooserJButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="563" column="52" lean-forward="true" selection-start-line="563" selection-start-column="52" selection-end-line="563" selection-end-column="52" />
+          <caret line="563" column="50" lean-forward="true" selection-start-line="563" selection-start-column="50" selection-end-line="563" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1293#1294#0" expanded="true" />
