@@ -25,9 +25,8 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
 
-import pool.DateChooserJButton;
 import pool.常量池;
-import pool.服务器探测器;
+import 公共组件池.探测器与接收器.探测器;
 import 公共组件池.传输组件.Message;
 import 公共组件池.传输组件.SocketProcessor;
 import 公共组件池.传输组件.SocketUser;
@@ -113,16 +112,15 @@ public class Clinet extends JFrame implements SocketUser {
 	private void 连接服务器() {
 		// TODO Auto-generated method stub
 		new Thread(() -> {
-			服务器探测器 a;
+			探测器 a;
 			try {
-				a = new 服务器探测器();
+				a = new 探测器();
 				while (!a.找到()) {
 					a.探测();
 				}
 				if (server != null)
 					server.close();
 				System.out.println("探测到服务器 " + a.getIp());
-//				server = new SocketProcessor("localhost", 常量池.服务器通信端口, this);
 				server = new SocketProcessor(a.getIp(), 常量池.服务器通信端口, this);
 				Message msg = new Message();
 				msg.set描述("登记");
@@ -396,7 +394,7 @@ public class Clinet extends JFrame implements SocketUser {
 			EventQueue.invokeLater(new Runnable() {
 				public void run() {
 					try {
-						授课界面 a = new 授课界面(server, 内容, name, cur_begintime, clinet);
+						TeachingPad a = new TeachingPad(server, 内容, name, cur_begintime, clinet);
 						a.frame.setVisible(true);
 					} catch (Exception e) {
 						e.printStackTrace();

@@ -9,6 +9,7 @@ import pool.常量池;
 import 公共组件池.传输组件.Message;
 import 公共组件池.传输组件.SocketProcessor;
 import 公共组件池.传输组件.SocketUser;
+import 公共组件池.探测器与接收器.接收器;
 
 /**
  * @author 不识不知 wx:hbhdlhd96
@@ -24,7 +25,7 @@ public class Server implements Runnable, SocketUser {
 
     public Server() {
         // TODO Auto-generated constructor stub
-        new 广播台();
+        new 接收器();
         new Thread(this,"服务器进程").start();
     }
 

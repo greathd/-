@@ -7,7 +7,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 import pool.常量池;
-import 公共组件池.其他组件.图片Util;
+import 公共组件池.其他组件.PictureUtil;
 
 /**
  * @author 不识不知 wx:hbhdlhd96
@@ -48,7 +48,7 @@ public class Video接收线程 implements Runnable {
             socket = server.accept();
             in = new ObjectInputStream(new BufferedInputStream(socket.getInputStream()));
             while (run) {
-                user.对方(图片Util.Decoding(((Video包) in.readObject()).getImage()));
+                user.对方(PictureUtil.Decoding(((Video包) in.readObject()).getImage()));
             }
         } catch (ClassNotFoundException | IOException e) {
             // TODO Auto-generated catch block

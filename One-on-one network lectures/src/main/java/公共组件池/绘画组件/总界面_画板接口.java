@@ -7,7 +7,6 @@ import java.awt.Color;
  * @version 创建时间：2018年12月30日 下午9:41:44 类说明
  */
 public interface 总界面_画板接口 {
-	String 获取调用者ID();
 
 	DrawingMode 获取绘画模式();
 

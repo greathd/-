@@ -23,8 +23,8 @@ import javax.swing.JPanel;
 import javax.swing.border.LineBorder;
 
 import 公共组件池.传输组件.Message;
-import 公共组件池.其他组件.图片Util;
-import 客戶端.授课界面;
+import 公共组件池.其他组件.PictureUtil;
+import 客戶端.TeachingPad;
 
 /**
  * 画板类
@@ -36,7 +36,7 @@ public class 授课板 extends JPanel {
 	/**
 	 * 控制变量
 	 */
-	protected 授课界面 father = null;
+	protected TeachingPad father;
 	protected boolean 可用 = false;
 	/**
 	 * 存储变量
@@ -108,7 +108,7 @@ public class 授课板 extends JPanel {
 	 * 
 	 * @param 名字
 	 */
-	public 授课板(String 名字, 授课界面 调用者) {
+	public 授课板(String 名字, TeachingPad 调用者) {
 		this.名字 = 名字;
 		this.father = 调用者;
 		initGUI();
@@ -119,7 +119,7 @@ public class 授课板 extends JPanel {
 	 * 
 	 * @param 调用者
 	 */
-	public void 设置调用者(授课界面 调用者) {
+	public void 设置调用者(TeachingPad 调用者) {
 		this.father = 调用者;
 	}
 
@@ -181,7 +181,7 @@ public class 授课板 extends JPanel {
 		message.setDrawtype("填充页面");
 		message.set内容(名字);
 		try {
-			message.setImg(图片Util.Encoding(新页面));
+			message.setImg(PictureUtil.Encoding(新页面));
 			father.sendDrawMessage(message);
 			// 通知服务器
 			message.set身份(father.身份);

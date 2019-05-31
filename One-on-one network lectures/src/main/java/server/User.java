@@ -7,8 +7,8 @@ package server;
  * @version 创建时间：2019年5月15日 下午3:26:32
  */
 public class User {
-	String name;
-	String psw;
+	private String name;
+	private String psw;
 
 	public User(String name, String psw) {
 		super();

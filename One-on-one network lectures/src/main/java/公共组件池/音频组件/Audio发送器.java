@@ -16,8 +16,8 @@ public class Audio发送器 implements Runnable {
     /**
      * 网络参数
      */
-    private String ip = pool.常量池.默认IP;
-    private int port = pool.常量池.音频端口号;
+    private String ip;
+    private int port;
     private OutputStream out = null;
     /**
      * 变量

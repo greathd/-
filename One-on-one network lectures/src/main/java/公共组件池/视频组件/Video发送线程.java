@@ -9,7 +9,7 @@ import java.net.UnknownHostException;
 
 import com.github.sarxos.webcam.Webcam;
 import pool.常量池;
-import 公共组件池.其他组件.图片Util;
+import 公共组件池.其他组件.PictureUtil;
 
 
 /**
@@ -67,7 +67,7 @@ public class Video发送线程 implements Runnable {
                 user.我方(image);
                 // 转码装包
                 Video包 pack = new Video包();
-                pack.setImage(图片Util.Encoding(image));
+                pack.setImage(PictureUtil.Encoding(image));
                 // 发送
                 if (resetnum == 50) {
                     out.reset();

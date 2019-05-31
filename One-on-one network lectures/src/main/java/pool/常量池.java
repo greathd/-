@@ -7,8 +7,6 @@ package pool;
  */
 
 public class 常量池 {
-	public static String 默认学生IP = "localhost";
-	public static String 服务器ip = "localhost";
 	public static String 默认IP = "localhost";
 
 	public static int 广播台端口号 = 9999;
