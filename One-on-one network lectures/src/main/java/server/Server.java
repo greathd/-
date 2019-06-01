@@ -1,15 +1,15 @@
-package server;
+package Server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 
-import pool.常量池;
-import 公共组件池.传输组件.Message;
-import 公共组件池.传输组件.SocketProcessor;
-import 公共组件池.传输组件.SocketUser;
-import 公共组件池.探测器与接收器.接收器;
+import Tools.CommunicationTool.Message;
+import Tools.CommunicationTool.SocketProcessor;
+import Tools.CommunicationTool.SocketUser;
+import Tools.CommunicationTool.接收器;
+import Tools.常量池;
 
 /**
  * @author 不识不知 wx:hbhdlhd96
@@ -26,7 +26,7 @@ public class Server implements Runnable, SocketUser {
     public Server() {
         // TODO Auto-generated constructor stub
         new 接收器();
-        new Thread(this,"服务器进程").start();
+        new Thread(this, "服务器进程").start();
     }
 
     @Override
