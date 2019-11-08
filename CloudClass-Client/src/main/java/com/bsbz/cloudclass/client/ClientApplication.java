@@ -1,13 +1,13 @@
-package com.bsbz.cloudclass.clinet;
+package com.bsbz.cloudclass.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ClinetApplication {
+public class ClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ClinetApplication.class, args);
+        SpringApplication.run(ClientApplication.class, args);
     }
 
 }

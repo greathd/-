@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.bsbz.cloudclass</groupId>
-    <artifactId>clinet</artifactId>
+    <artifactId>client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>clinet</name>
+    <name>client</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
